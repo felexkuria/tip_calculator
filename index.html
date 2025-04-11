@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Caclulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="card">
+          <!-- <form action="/submit" method="get"> -->
+          <h2>Tip Caclulator</h2>
+          <h3>
+            Enter the Bill Amount and Tip Percentage to caluclate the tottal
+          </h3>
+          <label for="bill_amount">Bill Amount</label>
+          <input type="number" name="bill_amount" id="bill_amount" required />
+          <label for="tip_percentage">Tip Percentage</label>
+          <input
+            type="number"
+            name="tip_percentage"
+            id="tip_percentage"
+            required
+            maxlength="20"
+          />
+          <button type="submit">Calculate</button>
+          <p>total <span id="tip_amount_span"> Kes 0.00</span></p>
+          <!-- </form> -->
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
