@@ -27,7 +27,7 @@ A simple JavaScript tip calculator that helps calculate the total bill amount in
 
 ## Screenshot
 
-![Tip Calculator Screenshot](/tip_calculator/Screenshot%202025-04-12%20at%2000.51.27.png)
+![Tip Calculator Screenshot](tip_calculator/Screenshot%202025-04-12%20at%2000.51.27.png)
 
 ## Future Improvements
 
